@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - SecureWeb Inc.</title>
+  <link rel="icon" href="/static/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Login to SecureWeb Inc.</h2>
+
+  <!-- Display error message if login fails -->
+  <div id="error-message" class="error-message" style="display: none;">Invalid credentials, please try again.</div>
+
+  <form id="loginForm" action="auth" method="post" class="login-form">
+    <input type="hidden" name="action" value="login" />
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Remember Me Checkbox in one horizontal line -->
+    <div class="remember-me-container">
+      <label for="rememberMe">Remember Me</label>
+      <input type="checkbox" id="rememberMe" name="rememberMe">
+    </div>
+
+    <button type="submit" class="login-button">Login</button>
+  </form>
+
+  <p class="signup-link">Don't have an account? <a href="signup.html">Sign up here</a></p>
+</div>
+
+<script>
+  window.onload = function() {
+    // If login fails, show error message
+    if (window.location.search.includes("error=true")) {
+      document.getElementById('error-message').style.display = 'block';
+    }
+  }
+</script>
+
+</body>
+</html>

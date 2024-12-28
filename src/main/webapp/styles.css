@@ -1,0 +1,198 @@
+/* login screen */
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    margin-bottom: 20px;
+    color: red;
+    font-size: 0.9em;
+}
+
+.login-form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.signup-link {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* "Remember Me" checkbox and label aligned like the example */
+.remember-me-container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.remember-me-container label {
+    margin-right: 8px;      /* Optional: Space between label and checkbox */
+}
+
+.checkbox-label {
+    margin-right: 0;      /* Remove any right margin */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+        width: 80%;
+    }
+}
+
+
+/*signup screen*/
+
+/* Overall styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form and inputs */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.login-link {
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+<web-app>
+  <display-name>CaseStudy Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>auth</welcome-file>
+  </welcome-file-list>
+  
+  <!-- AuthServlet Configuration -->
+  <servlet>
+    <servlet-name>AuthServlet</servlet-name>
+    <servlet-class>AuthServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AuthServlet</servlet-name>
+    <url-pattern>/auth</url-pattern>
+  </servlet-mapping>
+
+  <!-- ChatServlet Configuration -->
+  <servlet>
+    <servlet-name>ChatServlet</servlet-name>
+    <servlet-class>ChatServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ChatServlet</servlet-name>
+    <url-pattern>/chat</url-pattern>
+  </servlet-mapping>
+
+  <!-- ProfileServlet Configuration -->
+  <servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+
+  <!-- UploadProfilePhotoServlet Configuration -->
+  <servlet>
+    <servlet-name>UploadProfilePhotoServlet</servlet-name>
+    <servlet-class>UploadProfilePhotoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadProfilePhotoServlet</servlet-name>
+    <url-pattern>/uploadProfilePhoto</url-pattern>
+  </servlet-mapping>
+
+  <!-- UploadsServlet Configuration -->
+  <servlet>
+    <servlet-name>UploadsServlet</servlet-name>
+    <servlet-class>UploadsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UploadsServlet</servlet-name>
+    <url-pattern>/uploads</url-pattern>
+  </servlet-mapping>
+</web-app>

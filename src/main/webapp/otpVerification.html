@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Verification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    .container {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #666;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .error-message {
+      color: #dc3545;
+      text-align: center;
+      margin-bottom: 1rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2>Enter OTP</h2>
+  <div id="error-message" class="error-message">Invalid OTP. Please try again.</div>
+
+  <form action="auth" method="POST">
+    <input type="hidden" name="action" value="verifyOtp">
+
+    <div class="form-group">
+      <label for="otp">Enter the OTP sent to your email:</label>
+      <input type="text" id="otp" name="otp" required
+             pattern="[0-9]{6}"
+             title="Please enter the 6-digit OTP"
+             maxlength="6">
+    </div>
+
+    <button type="submit">Verify OTP</button>
+  </form>
+</div>
+
+<script>
+  // Show error message if error parameter exists in URL
+  window.onload = function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('error') === 'invalidOtp') {
+      document.getElementById('error-message').style.display = 'block';
+    }
+  }
+</script>
+</body>
+</html>

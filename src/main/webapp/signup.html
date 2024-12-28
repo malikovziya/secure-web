@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - SecureWeb Inc.</title>
+  <link rel="icon" href="/static/images/logo_1.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+<div class="container">
+  <h2>Sign Up</h2>
+
+  <!-- Error message section -->
+  <div id="error-message" class="error-message">
+    <p id="error-text"></p>
+  </div>
+
+  <form id="signupForm" action="auth" method="post" class="form-container">
+    <input type="hidden" name="action" value="signup" />
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required class="form-input"><br><br>
+
+    <label for="email">Email:</label> <!-- Add Email Field -->
+    <input type="email" id="email" name="email" required class="form-input"><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required class="form-input"><br><br>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required class="form-input"><br><br>
+
+    <!-- Role selection -->
+    <label for="role">Role:</label>
+    <select id="role" name="role" required class="form-input">
+      <option value="">--Select Role--</option>
+      <option value="Admin">Admin</option>
+      <option value="Moderator">Moderator</option>
+      <option value="User">User</option>
+    </select><br><br>
+
+    <button type="submit" class="btn">Sign Up</button>
+  </form>
+
+  <!-- Button to navigate to login page -->
+  <p class="login-link">Already have an account? <a href="./">Go to Login</a></p>
+</div>
+
+<script>
+  window.onload = function() {
+    // If there is an error in the URL, display the error message
+    const urlParams = new URLSearchParams(window.location.search);
+    const errorMessage = urlParams.get('error');
+
+    if (errorMessage) {
+      document.getElementById('error-message').style.display = 'block';
+      document.getElementById('error-text').innerText = errorMessage;
+    }
+  }
+</script>
+</body>
+</html>

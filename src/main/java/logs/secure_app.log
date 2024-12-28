@@ -1,0 +1,393 @@
+dek 11, 2024 8:21:06 PM SecureLogger log
+INFO: [2024-12-11 20:21:06] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 8:21:13 PM SecureLogger log
+INFO: [2024-12-11 20:21:13] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 8:30:42 PM SecureLogger log
+WARNING: [2024-12-11 20:30:42] User: ziya | Action: Login Failure | Details: Login attempt failed.
+dek 11, 2024 8:31:01 PM SecureLogger log
+INFO: [2024-12-11 20:31:01] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 8:31:24 PM SecureLogger log
+INFO: [2024-12-11 20:31:24] User: ziya | Action: SUCCESSFUL FILE UPLOAD | Details: File Uploaded: Screenshot 2024-01-13 000011.png
+dek 11, 2024 8:31:33 PM SecureLogger log
+INFO: [2024-12-11 20:31:33] User: ziya | Action: SUCCESSFUL FILE DOWNLOAD | Details: Successful File Download: Screenshot 2024-01-13 000011.png
+dek 11, 2024 8:39:50 PM SecureLogger log
+INFO: [2024-12-11 20:39:50] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 8:39:59 PM SecureLogger log
+INFO: [2024-12-11 20:39:59] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 8:40:05 PM SecureLogger log
+INFO: [2024-12-11 20:40:05] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 8:49:22 PM SecureLogger log
+INFO: [2024-12-11 20:49:22] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 8:49:32 PM SecureLogger log
+INFO: [2024-12-11 20:49:32] User: admin | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 8:50:22 PM SecureLogger log
+INFO: [2024-12-11 20:50:22] User: admin | Action: SUCCESSFUL FILE UPLOAD | Details: File uploaded successfully: Screenshot 2024-03-26 151454.png
+dek 11, 2024 8:50:34 PM SecureLogger log
+INFO: [2024-12-11 20:50:34] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: Screenshot 2024-03-26 151454.png
+dek 11, 2024 8:50:37 PM SecureLogger log
+INFO: [2024-12-11 20:50:37] User: admin | Action: FILE REMOVED | Details: File removed successfully: Screenshot 2024-03-26 151454.png
+dek 11, 2024 8:51:17 PM SecureLogger log
+INFO: [2024-12-11 20:51:17] User: admin | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 8:51:19 PM SecureLogger log
+INFO: [2024-12-11 20:51:19] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 8:51:23 PM SecureLogger log
+WARNING: [2024-12-11 20:51:23] User: sakldn | Action: Login Failure | Details: Login attempt failed.
+dek 11, 2024 8:51:59 PM SecureLogger log
+INFO: [2024-12-11 20:51:59] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 8:52:02 PM SecureLogger log
+SEVERE: [2024-12-11 20:52:02] User: admin | Action: MALICIOUS INPUT | Details: Malicious input detected: <script\x0Dtype="text/javascript">javascript:alert(1);</script>
+
+dek 11, 2024 8:52:36 PM SecureLogger log
+INFO: [2024-12-11 20:52:36] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 9:18:27 PM SecureLogger log
+INFO: [2024-12-11 21:18:27] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:19:19 PM SecureLogger log
+INFO: [2024-12-11 21:19:19] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 9:19:44 PM SecureLogger log
+INFO: [2024-12-11 21:19:44] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 9:24:47 PM SecureLogger log
+INFO: [2024-12-11 21:24:47] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 9:25:21 PM SecureLogger log
+SEVERE: [2024-12-11 21:25:21] User: ziya | Action: MALICIOUS INPUT | Details: Malicious input detected: ";a=prompt,a()//
+dek 11, 2024 9:27:31 PM SecureLogger log
+INFO: [2024-12-11 21:27:31] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 9:28:22 PM SecureLogger log
+INFO: [2024-12-11 21:28:22] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:28:42 PM SecureLogger log
+SEVERE: [2024-12-11 21:28:42] User: ziya | Action: MALICIOUS INPUT | Details: Malicious input detected: ";a=prompt,a()//
+
+dek 11, 2024 9:32:19 PM SecureLogger log
+INFO: [2024-12-11 21:32:19] User: fidan | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:32:28 PM SecureLogger log
+WARNING: [2024-12-11 21:32:28] User: fidan | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 11, 2024 9:34:02 PM SecureLogger log
+WARNING: [2024-12-11 21:34:02] User: ziya | Action: Login Failure | Details: Login attempt failed.
+dek 11, 2024 9:34:08 PM SecureLogger log
+INFO: [2024-12-11 21:34:08] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:34:24 PM SecureLogger log
+INFO: [2024-12-11 21:34:24] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 9:34:58 PM SecureLogger log
+INFO: [2024-12-11 21:34:58] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:41:29 PM SecureLogger log
+INFO: [2024-12-11 21:41:29] User: testuser | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:42:03 PM SecureLogger log
+WARNING: [2024-12-11 21:42:03] User: testuser | Action: UNAUTHORIZED FILE REMOVAL | Details: File Removal Failed: Screenshot 2024-01-13 000011.png
+dek 11, 2024 9:42:57 PM SecureLogger log
+INFO: [2024-12-11 21:42:57] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:43:23 PM SecureLogger log
+WARNING: [2024-12-11 21:43:23] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 11, 2024 9:43:35 PM SecureLogger log
+INFO: [2024-12-11 21:43:35] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 9:45:35 PM SecureLogger log
+INFO: [2024-12-11 21:45:35] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:45:43 PM SecureLogger log
+INFO: [2024-12-11 21:45:43] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 9:54:18 PM SecureLogger log
+INFO: [2024-12-11 21:54:18] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 9:54:34 PM SecureLogger log
+WARNING: [2024-12-11 21:54:34] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 11, 2024 9:57:50 PM SecureLogger log
+INFO: [2024-12-11 21:57:50] User: ziya | Action: FILE REMOVED | Details: File removed successfully: Screenshot 2024-01-13 000011.png
+dek 11, 2024 9:57:58 PM SecureLogger log
+INFO: [2024-12-11 21:57:58] User: ziya | Action: FILE DOWNLOADED | Details: Successful File Download: Screenshot 2024-03-25 213821.png
+dek 11, 2024 9:59:32 PM SecureLogger log
+INFO: [2024-12-11 21:59:32] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 9:59:56 PM SecureLogger log
+INFO: [2024-12-11 21:59:56] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 10:01:57 PM SecureLogger log
+INFO: [2024-12-11 22:01:57] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 10:03:04 PM SecureLogger log
+INFO: [2024-12-11 22:03:04] User: ziya | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2024-03-26 161530.png
+dek 11, 2024 10:03:28 PM SecureLogger log
+INFO: [2024-12-11 22:03:28] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:13:37 PM SecureLogger log
+INFO: [2024-12-11 22:13:37] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:18:34 PM SecureLogger log
+INFO: [2024-12-11 22:18:34] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:20:25 PM SecureLogger log
+INFO: [2024-12-11 22:20:25] User: admin | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 10:21:00 PM SecureLogger log
+INFO: [2024-12-11 22:21:00] User: admin | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 10:21:17 PM SecureLogger log
+INFO: [2024-12-11 22:21:17] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:21:26 PM SecureLogger log
+INFO: [2024-12-11 22:21:26] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:22:42 PM SecureLogger log
+INFO: [2024-12-11 22:22:42] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:23:27 PM SecureLogger log
+INFO: [2024-12-11 22:23:27] User: admin | Action: MESSAGE HISTORY DOWNLOADED | Details: User downloaded message history!
+dek 11, 2024 10:24:00 PM SecureLogger log
+INFO: [2024-12-11 22:24:00] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot (14).png
+dek 11, 2024 10:24:03 PM SecureLogger log
+INFO: [2024-12-11 22:24:03] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2024-03-26 161318.png
+dek 11, 2024 10:24:07 PM SecureLogger log
+INFO: [2024-12-11 22:24:07] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2024-03-26 205923.png
+dek 11, 2024 10:24:11 PM SecureLogger log
+INFO: [2024-12-11 22:24:11] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2024-03-26 161126.png
+dek 11, 2024 10:24:15 PM SecureLogger log
+INFO: [2024-12-11 22:24:15] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2024-03-26 205759.png
+dek 11, 2024 10:24:20 PM SecureLogger log
+INFO: [2024-12-11 22:24:20] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2024-10-30 002004.png
+dek 11, 2024 10:24:25 PM SecureLogger log
+INFO: [2024-12-11 22:24:25] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2024-11-13 222812.png
+dek 11, 2024 10:24:34 PM SecureLogger log
+INFO: [2024-12-11 22:24:34] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:24:38 PM SecureLogger log
+INFO: [2024-12-11 22:24:38] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:24:41 PM SecureLogger log
+WARNING: [2024-12-11 22:24:41] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 11, 2024 10:24:50 PM SecureLogger log
+INFO: [2024-12-11 22:24:50] User: ziya | Action: FILE REMOVED | Details: File removed successfully: Screenshot 2024-11-13 222812.png
+dek 11, 2024 10:24:51 PM SecureLogger log
+INFO: [2024-12-11 22:24:51] User: ziya | Action: FILE REMOVED | Details: File removed successfully: Screenshot 2024-10-30 002004.png
+dek 11, 2024 10:24:52 PM SecureLogger log
+INFO: [2024-12-11 22:24:52] User: ziya | Action: FILE REMOVED | Details: File removed successfully: Screenshot 2024-03-26 205759.png
+dek 11, 2024 10:24:54 PM SecureLogger log
+INFO: [2024-12-11 22:24:54] User: ziya | Action: FILE REMOVED | Details: File removed successfully: Screenshot 2024-03-26 161318.png
+dek 11, 2024 10:24:57 PM SecureLogger log
+INFO: [2024-12-11 22:24:57] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:25:01 PM SecureLogger log
+INFO: [2024-12-11 22:25:01] User: testuser | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:25:05 PM SecureLogger log
+WARNING: [2024-12-11 22:25:05] User: testuser | Action: UNAUTHORIZED FILE REMOVAL | Details: File Removal Failed: Screenshot 2024-03-26 161126.png
+dek 11, 2024 10:25:08 PM SecureLogger log
+WARNING: [2024-12-11 22:25:08] User: testuser | Action: UNAUTHORIZED FILE REMOVAL | Details: File Removal Failed: Screenshot 2024-03-26 161126.png
+dek 11, 2024 10:25:09 PM SecureLogger log
+WARNING: [2024-12-11 22:25:09] User: testuser | Action: FAILED FILE DOWNLOAD | Details: File Download Failed: Screenshot 2024-03-26 161126.png
+dek 11, 2024 10:25:15 PM SecureLogger log
+INFO: [2024-12-11 22:25:15] User: testuser | Action: FILE DOWNLOADED | Details: Successful File Download: Screenshot 2024-03-26 161126.png
+dek 11, 2024 10:25:18 PM SecureLogger log
+WARNING: [2024-12-11 22:25:18] User: testuser | Action: UNAUTHORIZED FILE REMOVAL | Details: File Removal Failed: Screenshot 2024-03-26 161126.png
+dek 11, 2024 10:25:25 PM SecureLogger log
+INFO: [2024-12-11 22:25:25] User: testuser | Action: FILE UPLOADED | Details: File uploaded successfully: Screenshot 2023-09-12 214238.png
+dek 11, 2024 10:26:06 PM SecureLogger log
+INFO: [2024-12-11 22:26:06] User: testuser | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:26:15 PM SecureLogger log
+INFO: [2024-12-11 22:26:15] User: fidan | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:26:18 PM SecureLogger log
+INFO: [2024-12-11 22:26:18] User: fidan | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 10:26:21 PM SecureLogger log
+INFO: [2024-12-11 22:26:21] User: fidan | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:27:26 PM SecureLogger log
+WARNING: [2024-12-11 22:27:26] User: ziya | Action: Login Failure | Details: Login attempt failed.
+dek 11, 2024 10:27:30 PM SecureLogger log
+INFO: [2024-12-11 22:27:30] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:29:33 PM SecureLogger log
+INFO: [2024-12-11 22:29:33] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:30:01 PM SecureLogger log
+INFO: [2024-12-11 22:30:01] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:30:06 PM SecureLogger log
+INFO: [2024-12-11 22:30:06] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:32:03 PM SecureLogger log
+INFO: [2024-12-11 22:32:03] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:32:13 PM SecureLogger log
+INFO: [2024-12-11 22:32:13] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:33:57 PM SecureLogger log
+INFO: [2024-12-11 22:33:57] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:34:19 PM SecureLogger log
+INFO: [2024-12-11 22:34:19] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: IT-22.1 Web Programming and Security.docx
+dek 11, 2024 10:34:59 PM SecureLogger log
+INFO: [2024-12-11 22:34:59] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: admin.jpg
+dek 11, 2024 10:35:05 PM SecureLogger log
+INFO: [2024-12-11 22:35:05] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: admin.jpg
+dek 11, 2024 10:35:29 PM SecureLogger log
+INFO: [2024-12-11 22:35:29] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:35:34 PM SecureLogger log
+INFO: [2024-12-11 22:35:34] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:35:59 PM SecureLogger log
+INFO: [2024-12-11 22:35:59] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 11, 2024 10:41:38 PM SecureLogger log
+INFO: [2024-12-11 22:41:38] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 11, 2024 10:41:55 PM SecureLogger log
+INFO: [2024-12-11 22:41:55] User: admin | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 10:56:52 PM SecureLogger log
+INFO: [2024-12-11 22:56:52] User: admin | Action: Login Success | Details: User logged in using cookies.
+dek 11, 2024 10:57:35 PM SecureLogger log
+WARNING: [2024-12-11 22:57:35] User: admin | Action: FAILED FILE UPLOAD | Details: Maximum allowed file size: 10 MB: android-studio-2023.3.1.19-windows.exe
+dek 11, 2024 10:57:45 PM SecureLogger log
+WARNING: [2024-12-11 22:57:45] User: admin | Action: FAILED FILE UPLOAD | Details: Maximum allowed file size: 10 MB: VID-20241204-WA0028.mp4
+dek 26, 2024 9:48:57 PM SecureLogger log
+INFO: [2024-12-26 21:48:57] User: admin | Action: Login Success | Details: User logged in using cookies.
+dek 26, 2024 9:49:04 PM SecureLogger log
+INFO: [2024-12-26 21:49:04] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 26, 2024 9:49:26 PM SecureLogger log
+WARNING: [2024-12-26 21:49:26] User: ziya | Action: Login Failure | Details: Login attempt failed.
+dek 26, 2024 9:49:29 PM SecureLogger log
+INFO: [2024-12-26 21:49:29] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 26, 2024 9:49:37 PM SecureLogger log
+WARNING: [2024-12-26 21:49:37] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 26, 2024 9:54:16 PM SecureLogger log
+WARNING: [2024-12-26 21:54:16] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 26, 2024 9:54:37 PM SecureLogger log
+SEVERE: [2024-12-26 21:54:37] User: ziya | Action: MALICIOUS INPUT | Details: Malicious input detected: <script\x0Atype="text/javascript">javascript:alert(1);</script>
+dek 26, 2024 9:55:16 PM SecureLogger log
+INFO: [2024-12-26 21:55:16] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 26, 2024 10:04:03 PM SecureLogger log
+INFO: [2024-12-26 22:04:03] User: fidan | Action: Login Success | Details: User logged in successfully.
+dek 26, 2024 10:06:49 PM SecureLogger log
+INFO: [2024-12-26 22:06:49] User: fidan | Action: Logout Success | Details: User logged out successfully.
+dek 26, 2024 10:17:09 PM SecureLogger log
+WARNING: [2024-12-26 22:17:09] User: emaileduser | Action: Login Failure | Details: Login attempt failed.
+dek 26, 2024 10:17:14 PM SecureLogger log
+INFO: [2024-12-26 22:17:14] User: emaileduser | Action: Login Success | Details: User logged in successfully.
+dek 26, 2024 10:43:33 PM SecureLogger log
+INFO: [2024-12-26 22:43:33] User: ziya | Action: Login Success | Details: User logged in successfully.
+dek 26, 2024 10:44:34 PM SecureLogger log
+INFO: [2024-12-26 22:44:34] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 26, 2024 11:24:14 PM SecureLogger log
+WARNING: [2024-12-26 23:24:14] User: admin | Action: Login Failure | Details: Login attempt failed.
+dek 26, 2024 11:24:32 PM SecureLogger log
+INFO: [2024-12-26 23:24:32] User: admin | Action: Login Success | Details: User logged in successfully.
+dek 26, 2024 11:33:17 PM SecureLogger log
+INFO: [2024-12-26 23:33:17] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 26, 2024 11:34:05 PM SecureLogger log
+INFO: [2024-12-26 23:34:05] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 26, 2024 11:35:54 PM SecureLogger log
+INFO: [2024-12-26 23:35:54] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 26, 2024 11:36:54 PM SecureLogger log
+INFO: [2024-12-26 23:36:54] User: fidan | Action: Login Success | Details: User logged in using cookies.
+dek 27, 2024 12:00:56 AM SecureLogger log
+INFO: [2024-12-27 00:00:56] User: fidan | Action: Login Success | Details: User logged in using cookies.
+dek 27, 2024 12:02:08 AM SecureLogger log
+INFO: [2024-12-27 00:02:08] User: fidan | Action: Logout Success | Details: User logged out successfully.
+dek 27, 2024 12:10:16 AM SecureLogger log
+INFO: [2024-12-27 00:10:16] User: fidan | Action: FILE DOWNLOADED | Details: Successful File Download: admin.jpg
+dek 27, 2024 12:10:37 AM SecureLogger log
+INFO: [2024-12-27 00:10:37] User: fidan | Action: FILE REMOVED | Details: File removed successfully: admin.jpg
+dek 27, 2024 12:10:54 AM SecureLogger log
+WARNING: [2024-12-27 00:10:54] User: fidan | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 27, 2024 12:11:07 AM SecureLogger log
+INFO: [2024-12-27 00:11:07] User: fidan | Action: Login Success | Details: User logged in using cookies.
+dek 27, 2024 12:43:05 AM SecureLogger log
+INFO: [2024-12-27 00:43:05] User: admin | Action: MESSAGE HISTORY DOWNLOADED | Details: User downloaded message history!
+dek 27, 2024 12:45:15 AM SecureLogger log
+INFO: [2024-12-27 00:45:15] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:45:21 AM SecureLogger log
+INFO: [2024-12-27 00:45:21] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:45:22 AM SecureLogger log
+INFO: [2024-12-27 00:45:22] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:45:37 AM SecureLogger log
+INFO: [2024-12-27 00:45:37] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:45:37 AM SecureLogger log
+INFO: [2024-12-27 00:45:37] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:45:56 AM SecureLogger log
+INFO: [2024-12-27 00:45:56] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: sql injection task.docx
+dek 27, 2024 12:45:59 AM SecureLogger log
+WARNING: [2024-12-27 00:45:59] User: admin | Action: FAILED FILE DOWNLOAD | Details: File Download Failed: sql injection task.docx
+dek 27, 2024 12:46:05 AM SecureLogger log
+INFO: [2024-12-27 00:46:05] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: sql injection task.docx
+dek 27, 2024 12:46:15 AM SecureLogger log
+INFO: [2024-12-27 00:46:15] User: admin | Action: FILE UPLOADED | Details: File uploaded successfully: classAssignment_6.2.pdf
+dek 27, 2024 12:46:20 AM SecureLogger log
+INFO: [2024-12-27 00:46:20] User: admin | Action: FILE REMOVED | Details: File removed successfully: classAssignment_6.2.pdf
+dek 27, 2024 12:46:29 AM SecureLogger log
+INFO: [2024-12-27 00:46:29] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: sql injection task.docx
+dek 27, 2024 12:46:31 AM SecureLogger log
+INFO: [2024-12-27 00:46:31] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:46:31 AM SecureLogger log
+INFO: [2024-12-27 00:46:31] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:46:42 AM SecureLogger log
+INFO: [2024-12-27 00:46:42] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: sql injection task.docx
+dek 27, 2024 12:46:44 AM SecureLogger log
+INFO: [2024-12-27 00:46:44] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:46:45 AM SecureLogger log
+INFO: [2024-12-27 00:46:45] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:47:59 AM SecureLogger log
+INFO: [2024-12-27 00:47:59] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:47:59 AM SecureLogger log
+INFO: [2024-12-27 00:47:59] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:51:24 AM SecureLogger log
+INFO: [2024-12-27 00:51:24] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:51:24 AM SecureLogger log
+INFO: [2024-12-27 00:51:24] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:51:33 AM SecureLogger log
+INFO: [2024-12-27 00:51:33] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:51:33 AM SecureLogger log
+INFO: [2024-12-27 00:51:33] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:52:25 AM SecureLogger log
+INFO: [2024-12-27 00:52:25] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:52:25 AM SecureLogger log
+INFO: [2024-12-27 00:52:25] User: admin | Action: FILE DOWNLOADED | Details: Successful File Download: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:53:03 AM SecureLogger log
+INFO: [2024-12-27 00:53:03] User: admin | Action: FILE REMOVED | Details: File removed successfully: SQL-ADVANCED-2.pdf
+dek 27, 2024 12:53:11 AM SecureLogger log
+INFO: [2024-12-27 00:53:11] User: admin | Action: Logout Success | Details: User logged out successfully.
+dek 27, 2024 12:55:17 AM SecureLogger log
+INFO: [2024-12-27 00:55:17] User: my_user | Action: Login Success | Details: User logged in using cookies.
+dek 27, 2024 12:55:34 AM SecureLogger log
+WARNING: [2024-12-27 00:55:34] User: my_user | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 27, 2024 12:55:38 AM SecureLogger log
+WARNING: [2024-12-27 00:55:38] User: my_user | Action: UNAUTHORIZED FILE REMOVAL | Details: File Removal Failed: sql injection task.docx
+dek 27, 2024 12:55:51 AM SecureLogger log
+INFO: [2024-12-27 00:55:51] User: my_user | Action: FILE UPLOADED | Details: File uploaded successfully: LECTURE-CODE.sql
+dek 27, 2024 12:55:58 AM SecureLogger log
+WARNING: [2024-12-27 00:55:58] User: my_user | Action: UNAUTHORIZED FILE REMOVAL | Details: File Removal Failed: LECTURE-CODE.sql
+dek 27, 2024 12:57:25 AM SecureLogger log
+INFO: [2024-12-27 00:57:25] User: my_user | Action: Logout Success | Details: User logged out successfully.
+dek 27, 2024 12:58:42 AM SecureLogger log
+WARNING: [2024-12-27 00:58:42] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 27, 2024 12:59:09 AM SecureLogger log
+INFO: [2024-12-27 00:59:09] User: ziya | Action: FILE REMOVED | Details: File removed successfully: sql injection task.docx
+dek 27, 2024 12:59:12 AM SecureLogger log
+INFO: [2024-12-27 00:59:12] User: ziya | Action: FILE DOWNLOADED | Details: Successful File Download: LECTURE-CODE.sql
+dek 27, 2024 12:59:39 AM SecureLogger log
+INFO: [2024-12-27 00:59:39] User: ziya | Action: FILE UPLOADED | Details: File uploaded successfully: AI for everyone.pdf
+dek 27, 2024 12:59:42 AM SecureLogger log
+INFO: [2024-12-27 00:59:42] User: ziya | Action: FILE REMOVED | Details: File removed successfully: AI for everyone.pdf
+dek 27, 2024 12:59:56 AM SecureLogger log
+INFO: [2024-12-27 00:59:56] User: ziya | Action: FILE UPLOADED | Details: File uploaded successfully: SAD Course Final Project Template_2024.docx
+dek 27, 2024 12:59:59 AM SecureLogger log
+WARNING: [2024-12-27 00:59:59] User: ziya | Action: FAILED FILE DOWNLOAD | Details: File Download Failed: SAD Course Final Project Template_2024.docx
+dek 27, 2024 1:00:07 AM SecureLogger log
+INFO: [2024-12-27 01:00:07] User: ziya | Action: FILE DOWNLOADED | Details: Successful File Download: SAD Course Final Project Template_2024.docx
+dek 27, 2024 1:02:44 AM SecureLogger log
+INFO: [2024-12-27 01:02:44] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 27, 2024 1:04:41 AM SecureLogger log
+WARNING: [2024-12-27 01:04:41] User: ziya | Action: FAILED FILE UPLOAD | Details: Maximum allowed file size: 10 MB: BURAXILISH-5 23-24.pdf
+dek 27, 2024 10:30:44 AM SecureLogger log
+WARNING: [2024-12-27 10:30:44] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 27, 2024 10:34:40 AM SecureLogger log
+INFO: [2024-12-27 10:34:40] User: fidan | Action: Login Success | Details: User logged in using cookies.
+dek 27, 2024 10:34:46 AM SecureLogger log
+INFO: [2024-12-27 10:34:46] User: fidan | Action: Logout Success | Details: User logged out successfully.
+dek 27, 2024 12:16:20 PM SecureLogger log
+WARNING: [2024-12-27 12:16:20] User: aksin | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 27, 2024 12:16:50 PM SecureLogger log
+SEVERE: [2024-12-27 12:16:50] User: aksin | Action: MALICIOUS INPUT | Details: Malicious input detected: <img/src/onerror=prompt(8)>
+dek 27, 2024 12:17:05 PM SecureLogger log
+SEVERE: [2024-12-27 12:17:05] User: aksin | Action: MALICIOUS INPUT | Details: Malicious input detected: <img/src/onerror=prompt(8)>
+dek 27, 2024 12:17:19 PM SecureLogger log
+SEVERE: [2024-12-27 12:17:19] User: aksin | Action: MALICIOUS INPUT | Details: Malicious input detected: <img/src/onerror=prompt(8)>
+dek 27, 2024 12:18:13 PM SecureLogger log
+INFO: [2024-12-27 12:18:13] User: aksin | Action: FILE REMOVED | Details: File removed successfully: SAD Course Final Project Template_2024.docx
+dek 27, 2024 12:18:17 PM SecureLogger log
+INFO: [2024-12-27 12:18:17] User: aksin | Action: FILE DOWNLOADED | Details: Successful File Download: LECTURE-CODE.sql
+dek 27, 2024 12:18:32 PM SecureLogger log
+INFO: [2024-12-27 12:18:32] User: aksin | Action: FILE UPLOADED | Details: File uploaded successfully: admin.jpg
+dek 27, 2024 12:18:39 PM SecureLogger log
+INFO: [2024-12-27 12:18:39] User: aksin | Action: FILE DOWNLOADED | Details: Successful File Download: admin.jpg
+dek 27, 2024 12:18:48 PM SecureLogger log
+INFO: [2024-12-27 12:18:48] User: aksin | Action: FILE REMOVED | Details: File removed successfully: admin.jpg
+dek 27, 2024 12:19:03 PM SecureLogger log
+SEVERE: [2024-12-27 12:19:03] User: aksin | Action: MALICIOUS INPUT | Details: Malicious input detected: <img/src/onerror=prompt(8)>
+dek 27, 2024 12:26:59 PM SecureLogger log
+SEVERE: [2024-12-27 12:26:59] User: ziya | Action: MALICIOUS INPUT | Details: Malicious input detected: <img/src/onerror=prompt(8)>
+dek 27, 2024 12:29:28 PM SecureLogger log
+WARNING: [2024-12-27 12:29:28] User: ziya | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 27, 2024 12:30:03 PM SecureLogger log
+INFO: [2024-12-27 12:30:03] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 27, 2024 1:13:22 PM SecureLogger log
+INFO: [2024-12-27 13:13:22] User: ziya | Action: Login Success | Details: User logged in using cookies.
+dek 27, 2024 1:13:29 PM SecureLogger log
+INFO: [2024-12-27 13:13:29] User: ziya | Action: Logout Success | Details: User logged out successfully.
+dek 27, 2024 1:20:42 PM SecureLogger log
+SEVERE: [2024-12-27 13:20:42] User: user12 | Action: MALICIOUS INPUT | Details: Malicious input detected: <script\x0Atype="text/javascript">javascript:alert(1);</script>
+
+dek 27, 2024 1:21:22 PM SecureLogger log
+WARNING: [2024-12-27 13:21:22] User: user12 | Action: UNAUTHORIZED MESSAGE DOWNLOAD ATTEMPT | Details: Non-admin user tried to download messages.
+dek 27, 2024 1:25:17 PM SecureLogger log
+INFO: [2024-12-27 13:25:17] User: user12 | Action: FILE UPLOADED | Details: File uploaded successfully: LECTURE-CODING.sql
+dek 27, 2024 1:25:25 PM SecureLogger log
+INFO: [2024-12-27 13:25:25] User: user12 | Action: FILE DOWNLOADED | Details: Successful File Download: LECTURE-CODING.sql
+dek 27, 2024 1:25:29 PM SecureLogger log
+INFO: [2024-12-27 13:25:29] User: user12 | Action: FILE REMOVED | Details: File removed successfully: LECTURE-CODING.sql
