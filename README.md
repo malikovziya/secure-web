@@ -97,7 +97,7 @@ We welcome contributions to this project. To contribute:
 5. Open a pull request for review.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License].
 
 ## Contact
 For questions or support, feel free to contact [ziyamelikov04@gmail.com](mailto:ziyamelikov04@gmail.com).
